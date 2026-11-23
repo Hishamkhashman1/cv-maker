@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hisham Khashman - Resume</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0.65in;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            color: #111;
+            background: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10.5pt;
+            line-height: 1.35;
+            margin: 0 auto;
+            max-width: 8.27in;
+        }
+
+        header {
+            border-bottom: 2px solid #111;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 22pt;
+            line-height: 1.1;
+            margin: 0 0 4px;
+        }
+
+        h2 {
+            border-bottom: 1px solid #555;
+            font-size: 13pt;
+            line-height: 1.2;
+            margin: 16px 0 8px;
+            padding-bottom: 3px;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            font-size: 11pt;
+            margin: 0;
+        }
+
+        p {
+            margin: 4px 0;
+        }
+
+        a {
+            color: #111;
+            text-decoration: none;
+        }
+
+        .contact,
+        .skills,
+        .meta {
+            color: #222;
+        }
+
+        .contact span + span::before {
+            content: " | ";
+        }
+
+        .job,
+        .project,
+        .education-item,
+        .certificate {
+            margin-bottom: 11px;
+            break-inside: avoid;
+            page-break-inside: avoid;
+        }
+
+        .job-header,
+        .project-header {
+            display: flex;
+            gap: 12px;
+            justify-content: space-between;
+        }
+
+        .meta {
+            flex: 0 0 auto;
+            white-space: nowrap;
+        }
+
+        ul {
+            margin: 4px 0 0 20px;
+            padding: 0;
+        }
+
+        li {
+            margin: 2px 0;
+        }
+
+        .skills p {
+            margin: 5px 0;
+        }
+
+        .label {
+            font-weight: bold;
+        }
+
+        @media print {
+            body {
+                font-size: 10pt;
+            }
+
+            h2 {
+                margin-top: 13px;
+            }
+
+            a {
+                color: #111;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hisham Khashman</h1>
+        <p><strong>Full-Stack Software Engineer &amp; AI Automation</strong></p>
+        <p class="contact">
+            <span>Email: <a href="mailto:hisham.khashman@gmail.com">hisham.khashman@gmail.com</a></span>
+            <span>Phone: <a href="tel:+529995117052">+52 999 511 7052</a></span>
+            <span>Location: Mexico</span>
+            <span>GitHub: <a href="https://github.com/Hishamkhashman1">github.com/Hishamkhashman1</a></span>
+            <span>LinkedIn: <a href="https://www.linkedin.com/m/in/hishamkhashman">linkedin.com/in/hishamkhashman</a></span>
+            <span>Portfolio: <a href="https://www.hishamkhashman.dev/">hishamkhashman.dev</a></span>
+        </p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Full-Stack Software Engineer trained in Tokyo, Japan, with a passion for algorithms, C programming, systems architecture, and understanding how technology works. Experienced in designing solutions, building scalable backend systems, APIs, and end-to-end products. Currently developing Forecast Alpha, an AI-powered operational intelligence platform, while exploring language models and machine learning. Previously spent over a decade in management consulting, finance, operations, and business intelligence, bringing a practical, problem-solving perspective to software engineering.</p>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skills">
+                <p><span class="label">Programming Languages:</span> Python, Ruby, JavaScript, SQL, C</p>
+                <p><span class="label">Frameworks and Libraries:</span> Ruby on Rails, Flask, FastAPI, Bootstrap, Next.js, Tailwind CSS</p>
+                <p><span class="label">Data and Machine Learning:</span> Pandas, NumPy, Scikit-learn, Prophet, TensorFlow, forecasting, anomaly detection</p>
+                <p><span class="label">Cloud and Tools:</span> Docker, Git, GitHub, Linux, Heroku, Google Cloud, Supabase, PostgreSQL, Power BI, CI/CD</p>
+                <p><span class="label">Specialties:</span> REST APIs, SaaS applications, data pipelines, OAuth authentication, dashboards, alerting workflows, AI automation, business intelligence</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Core Competencies</h2>
+            <p>Full-Stack Development; Backend Development; Software Engineering; AI Automation; Machine Learning; SaaS Product Development; REST API Design; Systems Architecture; Data Engineering; Data Analysis; Forecasting; Anomaly Detection; Business Intelligence; Project Management; PMO Implementation; Process Automation; RPA; Stakeholder Management; Agile Project Management</p>
+        </section>
+
+        <section>
+            <h2>Professional Experience</h2>
+
+            <article class="job">
+                <div class="job-header">
+                    <h3>Forecast Alpha - Technical Founder and Full-Stack Engineer</h3>
+                    <span class="meta">2024 - Present</span>
+                </div>
+                <ul>
+                    <li>Architected and developed AI-powered SaaS applications using Python, FastAPI, Ruby on Rails, and Next.js.</li>
+                    <li>Designed REST APIs, PostgreSQL data models, and multi-source integrations for analytics workflows.</li>
+                    <li>Implemented machine-learning forecasting, anomaly detection, and AI-generated KPI recommendations.</li>
+                    <li>Built authentication, onboarding, dashboards, and automated alerting workflows.</li>
+                    <li>Deployed and maintained applications using cloud infrastructure, Docker, and CI/CD pipelines.</li>
+                </ul>
+                <p><strong>Kifor (Japan):</strong> Full-stack build of a charity and donor matching system.</p>
+                <p><strong>Nexus Tours (Mexico):</strong> Built an anomaly detection system on transactional data and identified three confirmed fraud cases.</p>
+                <p><strong>Pulse Labs - Google Workspace AI Program:</strong> Developed internal data automation tools and processed datasets for AI model evaluation.</p>
+            </article>
+
+            <article class="job">
+                <div class="job-header">
+                    <h3>Localiza &amp; Co - PMO Expansion Mexico</h3>
+                    <span class="meta">2023 - 2024</span>
+                </div>
+                <ul>
+                    <li>Enabled 16 office openings through PMO implementation.</li>
+                    <li>Built Power BI dashboards for executive KPI tracking.</li>
+                </ul>
+            </article>
+
+            <article class="job">
+                <div class="job-header">
+                    <h3>Hertz - General Manager, Operations</h3>
+                    <span class="meta">2020 - 2023</span>
+                </div>
+                <ul>
+                    <li>Improved NPS and market share through data-driven operations.</li>
+                    <li>Optimized workflows across regional operations.</li>
+                </ul>
+            </article>
+
+            <article class="job">
+                <div class="job-header">
+                    <h3>UNIFIN - Regional Business Intelligence Manager</h3>
+                    <span class="meta">2018 - 2020</span>
+                </div>
+                <ul>
+                    <li>Designed Power BI dashboards driving sales and credit insights.</li>
+                    <li>Delivered strategic insights across multi-state operations.</li>
+                    <li>Improved lead quality through data acquisition and cleansing.</li>
+                    <li>Led training programs to enhance team performance.</li>
+                </ul>
+            </article>
+
+            <article class="job">
+                <div class="job-header">
+                    <h3>Accenture - Finance and Enterprise Performance Consultant</h3>
+                    <span class="meta">2016 - 2018</span>
+                </div>
+                <ul>
+                    <li>Delivered RPA solutions reducing finance operating expenses using Blue Prism and Automation Anywhere.</li>
+                    <li>Led SAP implementation across enterprise finance processes.</li>
+                    <li>Streamlined workflows and identified automation opportunities across teams.</li>
+                </ul>
+            </article>
+
+            <article class="job">
+                <div class="job-header">
+                    <h3>PwC - Management Consultant</h3>
+                    <span class="meta">2012 - 2014</span>
+                </div>
+                <ul>
+                    <li>Established a PMO for a Saudi government entity, aligning strategy and governance.</li>
+                    <li>Designed project governance frameworks and reporting structures.</li>
+                    <li>Delivered executive-level stakeholder reporting and insights.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>Selected Projects</h2>
+            <article class="project">
+                <div class="project-header">
+                    <h3>Forecast Alpha</h3>
+                    <span class="meta">SaaS, AI, Full-Stack</span>
+                </div>
+                <p>AI-powered operational intelligence platform for connected business data. Built full-stack systems including OAuth authentication, AI-generated KPI recommendations, anomaly detection, forecasting, dashboards, alerts, onboarding workflows, and multi-source integrations.</p>
+                <p>Website: <a href="https://www.forecastalpha.it.com">forecastalpha.it.com</a></p>
+            </article>
+
+            <article class="project">
+                <div class="project-header">
+                    <h3>Kifor Match</h3>
+                    <span class="meta">Full-Stack</span>
+                </div>
+                <p>Designed and developed a role-based donor and charity management platform including request workflows, offer approvals, and inventory-style fulfillment tracking.</p>
+                <p>GitHub: <a href="https://github.com/kwood6319/kifor-match">github.com/kwood6319/kifor-match</a></p>
+            </article>
+
+            <article class="project">
+                <div class="project-header">
+                    <h3>AI Personal Assistant</h3>
+                    <span class="meta">Full-Stack, AI</span>
+                </div>
+                <p>AI meeting and knowledge assistant with transcription, memory, summarization, and contextual question answering. Designed as a foundation for personal productivity automation and meeting intelligence workflows.</p>
+                <p>GitHub: <a href="https://github.com/Hishamkhashman1/AI-Personal-Assistant">github.com/Hishamkhashman1/AI-Personal-Assistant</a></p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>AI Software Full-Stack Development</h3>
+                <p>Le Wagon Tokyo | 2025 - 2026 | Graduated March 2026</p>
+            </div>
+            <div class="education-item">
+                <h3>Master of Arts in Financial Management - Merit</h3>
+                <p>Durham University, United Kingdom | 2011 - 2013 | Graduated with Merit</p>
+            </div>
+            <div class="education-item">
+                <h3>Bachelor of Business Administration in Finance - Honors</h3>
+                <p>Al Yamamah University, Saudi Arabia | 2007 - 2010 | Graduated with Honors (Magna Cum Laude)</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Certifications</h2>
+            <div class="certificate"><strong>Backend Development (Python)</strong> - Boot.dev, 2024</div>
+            <div class="certificate"><strong>Machine Learning Core Modules: Linear Regression, Logistic Regression and Numerical Data</strong> - Google, 2024</div>
+            <div class="certificate"><strong>AWS Cloud Practitioner Essentials</strong> - Amazon, 2026</div>
+            <div class="certificate"><strong>Agile Project Management</strong> - Google, 2023</div>
+        </section>
+
+        <section>
+            <h2>Languages</h2>
+            <p>English (Native Level); Japanese (Limited Working); Spanish (Native Level); Portuguese (Working Proficiency)</p>
+        </section>
+
+        <section>
+            <h2>Open Source</h2>
+            <p><strong>iCalendar - Contributor:</strong> Diagnosed and fixed a Hatchling source-distribution packaging issue affecting PyPI releases. <a href="https://github.com/collective/icalendar/pull/1494">PR #1494 - Merged</a></p>
+        </section>
+    </main>
+</body>
+</html>
